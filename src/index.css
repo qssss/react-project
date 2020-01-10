@@ -1,0 +1,42 @@
+.box {
+    border: 1px solid #348334;
+}
+
+.animateBox {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.fade-enter {
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s linear;
+}
+
+.fade-leave {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-leave.fade-leave-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: 1s linear;
+}
+
+.fade-appear {
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s linear;
+}
