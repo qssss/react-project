@@ -40,3 +40,7 @@
     transform: translateX(0);
     transition: 1s linear;
 }
+
+.selected {
+    border: 1px solid green;
+}
